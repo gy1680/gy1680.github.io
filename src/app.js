@@ -46,8 +46,8 @@ class App{
         const loadingPage = $(`
         <div id="main">
             <div id="title">
-                人生重开模拟器<br>
-                <div style="font-size:1.5rem; font-weight:normal;">加载中...</div>
+                Reset Life<br>
+                <div style="font-size:1.5rem; font-weight:normal;">Loading your life...</div>
             </div>
         </div>
         `);
@@ -55,14 +55,14 @@ class App{
         // Index
         const indexPage = $(`
         <div id="main">
-            <button id="achievement">成就</button>
-            <button id="specialthanks">特别感谢</button>
-            <button id="themeToggleBtn">黑</button>
+            <button id="achievement">Achievements</button>
+            <button id="specialthanks">Special thanks</button>
+            <button id="themeToggleBtn">Dark Mode</button>
             <div id="title">
-                人生重开模拟器<br>
-                <div style="font-size:1.5rem; font-weight:normal;">这垃圾人生一秒也不想呆了</div>
+                Reset Life<br>
+                <div style="font-size:1.5rem; font-weight:normal;">Life sucks, get me a new one</div>
             </div>
-            <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>立即重开</button>
+            <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>Reset Now</button>
             <a id="discord" href="https://discord.gg/U3qrf49NMQ" style="z-index: 9999;" aria-label="Chat on Discord"><button class="discord-btn"><svg width="50%" height="55" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.440769 45.4204 0.525289C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.525289C25.5141 0.443589 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978ZM23.7259 37.3253C20.2276 37.3253 17.3451 34.1136 17.3451 30.1693C17.3451 26.225 20.1717 23.0133 23.7259 23.0133C27.308 23.0133 30.1626 26.2532 30.1066 30.1693C30.1066 34.1136 27.28 37.3253 23.7259 37.3253ZM47.3178 37.3253C43.8196 37.3253 40.9371 34.1136 40.9371 30.1693C40.9371 26.225 43.7636 23.0133 47.3178 23.0133C50.9 23.0133 53.7545 26.2532 53.6986 30.1693C53.6986 34.1136 50.9 37.3253 47.3178 37.3253Z" fill="#ffffff"/></g><defs><clipPath id="clip0"><rect width="71" height="55" fill="white"/></clipPath></defs></svg>CHAT</button><style>.discord-btn {position: fixed;bottom: 0.5rem;left: 0.5rem;background-color: #5865F2;padding: 0.7rem;height: auto;color: white;text-align: right;vertical-align: middle;border: none;width: 6.5rem;font-size: 1rem;border-radius: 4px;}.discord-btn svg {height: 1.5rem;position: absolute;top: 50%;left: 0;transform: translateY(-50%);}.discord-btn:hover svg{animation:discord-wave 560ms ease-in-out;}@keyframes discord-wave{0%,100%{transform:translateY(-50%) rotate(0)}20%,60%{transform:translateY(-50%) rotate(-25deg)}40%,80%{transform:translateY(-50%) rotate(10deg)}}@media (max-width:500px){.discord-btn:hover svg{animation:none}.discord-btn svg{animation:discord-wave 560ms ease-in-out}}</style></a>
         </div>
         `);
@@ -79,9 +79,9 @@ class App{
             .click(()=>this.switch('achievement'));
 
         if(localStorage.getItem('theme') == 'light') {
-            indexPage.find('#themeToggleBtn').text('黑')
+            indexPage.find('#themeToggleBtn').text('Dark Mode')
         } else{
-            indexPage.find('#themeToggleBtn').text('白')
+            indexPage.find('#themeToggleBtn').text('Light Mode')
         }
 
         indexPage
@@ -89,10 +89,10 @@ class App{
             .click(() => {
                 if(localStorage.getItem('theme') == 'light') {
                     localStorage.setItem('theme', 'dark');
-                    indexPage.find('#themeToggleBtn').text('白')
+                    indexPage.find('#themeToggleBtn').text('Light Mode')
                 } else {
                     localStorage.setItem('theme', 'light');
-                    indexPage.find('#themeToggleBtn').text('黑')
+                    indexPage.find('#themeToggleBtn').text('Dark Mode')
                 }
 
                 this.setTheme(localStorage.getItem('theme'))
@@ -104,7 +104,7 @@ class App{
 
         const specialThanksPage = $(`
         <div id="main">
-            <button id="specialthanks">返回</button>
+            <button id="specialthanks">Back</button>
             <div id="spthx">
                 <ul class="g1"></ul>
                 <ul class="g2"></ul>
@@ -120,11 +120,11 @@ class App{
 
         const achievementPage = $(`
         <div id="main">
-            <button id="specialthanks">返回</button>
-            <span class="title">统计</span>
+            <button id="specialthanks">Back</button>
+            <span class="title">Stats</span>
             <ul id="total"></ul>
             <span style="padding:0.25rem; margin: 0.5rem 0; border: none; background: #ccc;"></span>
-            <span class="title">成就<button id="rank">排行榜</button></span>
+            <span class="title">Achievements<button id="rank">Ranking</button></span>
             <ul id="achievements"></ul>
         `)
 
@@ -134,14 +134,14 @@ class App{
 
         achievementPage
             .find('#rank')
-            .click(()=>this.hint('别卷了，没有排行榜'));
+            .click(()=>this.hint('Why you need a ranking for life?'));
         // Talent
         const talentPage = $(`
         <div id="main">
-            <div class="head" style="font-size: 1.6rem">天赋抽卡</div>
-            <button id="random" class="mainbtn" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);"">10连抽！</button>
+            <div class="head" style="font-size: 1.6rem">Pick a Talent</div>
+            <button id="random" class="mainbtn" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);"">10 Picks！</button>
             <ul id="talents" class="selectlist"></ul>
-            <button id="next" class="mainbtn">请选择3个</button>
+            <button id="next" class="mainbtn">Please select 3</button>
         </div>
         `);
 
@@ -163,11 +163,11 @@ class App{
                                 li.removeClass('selected')
                                 this.#talentSelected.delete(talent);
                                 if(this.#talentSelected.size<3) {
-                                    talentPage.find('#next').text('请选择3个')
+                                    talentPage.find('#next').text('Please select 3')
                                 }
                             } else {
                                 if(this.#talentSelected.size==3) {
-                                    this.hint('只能选3个天赋');
+                                    this.hint('Please select 3 Talents');
                                     return;
                                 }
 
@@ -178,7 +178,7 @@ class App{
                                 if(exclusive != null) {
                                     for(const { name, id } of this.#talentSelected) {
                                         if(id == exclusive) {
-                                            this.hint(`与已选择的天赋【${name}】冲突`);
+                                            this.hint(`This one is conflict with【${name}】`);
                                             return;
                                         }
                                     }
@@ -187,7 +187,7 @@ class App{
                                 li.addClass('selected');
                                 this.#talentSelected.add(talent);
                                 if(this.#talentSelected.size==3) {
-                                    talentPage.find('#next').text('开始新人生')
+                                    talentPage.find('#next').text('Start my new life')
                                 }
                             }
                         });
@@ -199,7 +199,7 @@ class App{
             .find('#next')
             .click(()=>{
                 if(this.#talentSelected.size!=3) {
-                    this.hint('请选择3个天赋');
+                    this.hint('Please select 3 Talents');
                     return;
                 }
                 talentPage.find('#next').hide()
@@ -212,21 +212,21 @@ class App{
         const propertyPage = $(/*html*/`
         <div id="main">
             <div class="head" style="font-size: 1.6rem">
-                <div>调整初始属性</div>
-                <div id="total" style="font-size:1rem; font-weight:normal;">可用属性点：0</div>
+                <div>Assign points to start the life</div>
+                <div id="total" style="font-size:1rem; font-weight:normal;">Points you can use：0</div>
             </div>
             <ul id="propertyAllocation" class="propinitial"></ul>
             <ul class="selectlist" id="talentSelectedView"></ul>
             <div class="btn-area">
-                <button id="random" class="mainbtn">随机分配</button>
-                <button id="start" class="mainbtn">开始新人生</button>
+                <button id="random" class="mainbtn">Help me assign</button>
+                <button id="start" class="mainbtn">Start my new life</button>
             </div>
         </div>
         `);
         propertyPage.mounted = ()=>{
             propertyPage
             .find('#talentSelectedView').append(
-                `<li>已选天赋</li>` +
+                `<li>Picked Talents</li>` +
                 Array.from(this.#talentSelected)
                 .map(({name,description})=>`<li class="grade0b">${name}(${description})</li>`)
                 .join('')
@@ -240,7 +240,7 @@ class App{
             return t;
         }
         const freshTotal = ()=>{
-            propertyPage.find('#total').text(`可用属性点：${this.#totalMax - total()}`);
+            propertyPage.find('#total').text(`Points you can use：${this.#totalMax - total()}`);
         }
         const getBtnGroups = (name, min, max)=>{
             const group = $(`<li>${name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>`);
@@ -265,7 +265,7 @@ class App{
             }
             btnAdd.click(()=>{
                 if(total() >= this.#totalMax) {
-                    this.hint('没有可分配的点数了');
+                    this.hint('No more points');
                     return;
                 }
                 set(get()+1);
@@ -286,10 +286,10 @@ class App{
             return {group, get, set};
         }
 
-        groups.CHR = getBtnGroups("颜值", 0, 10); // 颜值 charm CHR
-        groups.INT = getBtnGroups("智力", 0, 10); // 智力 intelligence INT
-        groups.STR = getBtnGroups("体质", 0, 10); // 体质 strength STR
-        groups.MNY = getBtnGroups("家境", 0, 10); // 家境 money MNY
+        groups.CHR = getBtnGroups("Appearance", 0, 10); // 颜值 charm CHR
+        groups.INT = getBtnGroups("Intelligence", 0, 10); // 智力 intelligence INT
+        groups.STR = getBtnGroups("Health", 0, 10); // 体质 strength STR
+        groups.MNY = getBtnGroups("Family Wealth", 0, 10); // 家境 money MNY
 
         const ul = propertyPage.find('#propertyAllocation');
 
@@ -322,10 +322,10 @@ class App{
             .find('#start')
             .click(()=>{
                 if(total() < this.#totalMax) {
-                    this.hint(`你还有${this.#totalMax-total()}属性点没有分配完`);
+                    this.hint(`You still have ${this.#totalMax-total()}points need to assign`);
                     return;
                 } else if (total() > this.#totalMax) {
-                    this.hint(`你多使用了${total() - this.#totalMax}属性点`);
+                    this.hint(`You assigned ${total() - this.#totalMax}points more than the limit`);
                     return;
                 }
                 const contents = this.#life.restart({
@@ -351,10 +351,10 @@ class App{
             <ul id="lifeProperty" class="lifeProperty"></ul>
             <ul id="lifeTrajectory" class="lifeTrajectory"></ul>
             <div class="btn-area">
-                <button id="auto" class="mainbtn">自动播放</button>
-                <button id="auto2x" class="mainbtn">自动播放2x</button>
-                <button id="summary" class="mainbtn">人生总结</button>
-                <button id="domToImage" class="mainbtn">人生回放</button>
+                <button id="auto" class="mainbtn">Autoplay</button>
+                <button id="auto2x" class="mainbtn">Autoplay2x</button>
+                <button id="summary" class="mainbtn">Life Recap</button>
+                <button id="domToImage" class="mainbtn">Life Replay</button>
             </div>
             <div class="domToImage2wx">
                 <img src="" id="endImage" />
@@ -368,12 +368,12 @@ class App{
                 if(this.#isEnd) return;
                 const trajectory = this.#life.next();
                 const { age, content, isEnd } = trajectory;
-                const li = $(`<li><span>${age}岁：</span><span>${
+                const li = $(`<li><span>Age:${age}</span><span>${
                     content.map(
                         ({type, description, grade, name, postEvent}) => {
                             switch(type) {
                                 case 'TLT':
-                                    return `天赋【${name}】发动：${description}`;
+                                    return `Trigger Talent【${name}】：${description}`;
                                 case 'EVT':
                                     return description + (postEvent?`<br>${postEvent}`:'');
                             }
@@ -392,11 +392,11 @@ class App{
                 }
                 const property = this.#life.getLastRecord();
                 $("#lifeProperty").html(`
-                <li><span>颜值</span><span>${property.CHR}</span></li>
-                <li><span>智力</span><span>${property.INT}</span></li>
-                <li><span>体质</span><span>${property.STR}</span></li>
-                <li><span>家境</span><span>${property.MNY}</span></li>
-                <li><span>快乐</span><span>${property.SPR}</span></li>
+                <li><span>Appearance</span><span>${property.CHR}</span></li>
+                <li><span>Intelligence</span><span>${property.INT}</span></li>
+                <li><span>Health</span><span>${property.STR}</span></li>
+                <li><span>Family Wealth</span><span>${property.MNY}</span></li>
+                <li><span>Happiness</span><span>${property.SPR}</span></li>
                 `);
             });
         // html2canvas
@@ -461,20 +461,20 @@ class App{
         // Summary
         const summaryPage = $(`
         <div id="main">
-            <div class="head">人生总结</div>
+            <div class="head">Life Recap</div>
             <ul id="judge" class="judge">
-                <li class="grade2"><span>颜值：</span><span>9级 美若天仙</span></li>
-                <li class="grade0"><span>智力：</span><span>4级 智力一般</span></li>
-                <li class="grade0"><span>体质：</span><span>1级 极度虚弱</span></li>
-                <li class="grade0"><span>家境：</span><span>6级 小康之家</span></li>
-                <li class="grade0"><span>享年：</span><span>3岁 早夭</span></li>
-                <li class="grade0"><span>快乐：</span><span></span>3级 不太幸福的人生</li>
+                <li class="grade2"><span>Appearance：</span><span>9级 美若天仙</span></li>
+                <li class="grade0"><span>Intelligence：</span><span>4级 智力一般</span></li>
+                <li class="grade0"><span>Health：</span><span>1级 极度虚弱</span></li>
+                <li class="grade0"><span>Family Wealth：</span><span>6级 小康之家</span></li>
+                <li class="grade0"><span>Age：</span><span>3岁 早夭</span></li>
+                <li class="grade0"><span>Happiness：</span><span></span>3级 不太幸福的人生</li>
             </ul>
-            <div class="head" style="height:auto;">天赋，你可以选一个，下辈子还能抽到</div>
+            <div class="head" style="height:auto;">Talent: Pick the one you want to have for the next life</div>
             <ul id="talents" class="selectlist" style="flex: 0 1 auto;">
                 <li class="grade2b">黑幕（面试一定成功）</li>
             </ul>
-            <button id="again" class="mainbtn"><span class="iconfont">&#xe6a7;</span>再次重开</button>
+            <button id="again" class="mainbtn"><span class="iconfont">&#xe6a7;</span>Start Again</button>
         </div>
         `);
 
@@ -564,23 +564,23 @@ class App{
                         }
                         let r = Object.values(rate)[0];
                         switch(parseInt(r)) {
-                            case 1: r = '不变'; break;
-                            case 2: r = '翻倍'; break;
-                            case 3: r = '三倍'; break;
-                            case 4: r = '四倍'; break;
-                            case 5: r = '五倍'; break;
-                            case 6: r = '六倍'; break;
+                            case 1: r = 'Same'; break;
+                            case 2: r = 'Double'; break;
+                            case 3: r = 'Triple'; break;
+                            case 4: r = 'Quadruple'; break;
+                            case 5: r = 'Five times'; break;
+                            case 6: r = 'Six times'; break;
                             default: break;
                         }
-                        return `抽到${color}概率${r}`;
+                        return `The change you get ${color} is ${r}`;
                     }
 
                     const { times, achievement, talentRate, eventRate } = this.#life.getTotal();
                     total.append(`
-                        <li class="achvg${getGrade('times', times)}"><span class="achievementtitle">已重开${times}次</span>${formatRate('times', times)}</li>
-                        <li class="achvg${getGrade('achievement', achievement)}"><span class="achievementtitle">成就达成${achievement}个</span>${formatRate('achievement', achievement)}</li>
-                        <li class="achvg${getGrade('eventRate', eventRate)}"><span class="achievementtitle">事件收集率</span>${Math.floor(eventRate * 100)}%</li>
-                        <li class="achvg${getGrade('talentRate', talentRate)}"><span class="achievementtitle">天赋收集率</span>${Math.floor(talentRate * 100)}%</li>
+                        <li class="achvg${getGrade('times', times)}"><span class="achievementtitle">You already started ${times} times</span>${formatRate('times', times)}</li>
+                        <li class="achvg${getGrade('achievement', achievement)}"><span class="achievementtitle">${achievement} achievements completed</span>${formatRate('achievement', achievement)}</li>
+                        <li class="achvg${getGrade('eventRate', eventRate)}"><span class="achievementtitle">Event Collection Rate</span>${Math.floor(eventRate * 100)}%</li>
+                        <li class="achvg${getGrade('talentRate', talentRate)}"><span class="achievementtitle">Talent Collection Rate</span>${Math.floor(talentRate * 100)}%</li>
                     `);
 
                     const achievementsData = this.#life.getAchievements();
@@ -649,9 +649,9 @@ class App{
                 born: contents => {
                     if(contents.length > 0)
                         $('#lifeTrajectory')
-                            .append(`<li><span>初始：</span><span>${
+                            .append(`<li><span>Beginning：</span><span>${
                                 contents.map(
-                                    ({source, target}) => `天赋【${source.name}】发动：替换为天赋【${target.name}】`
+                                    ({source, target}) => `Trigger Talent【${source.name}】: Replace to Talent【${target.name}】`
                                 ).join('<br>')
                             }</span></li>`);
 
@@ -685,7 +685,7 @@ class App{
                                     this.#selectedExtendTalent = null;
                                     li.removeClass('selected');
                                 } else if(this.#selectedExtendTalent != null) {
-                                    this.hint('只能继承一个天赋');
+                                    this.hint('You can only inherit one talent');
                                     return;
                                 } else {
                                     this.#selectedExtendTalent = talent.id;
