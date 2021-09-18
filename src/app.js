@@ -703,20 +703,20 @@ class App{
                     };
 
                     judge.append(`
-                        ${format('颜值', 'CHR')}
-                        ${format('智力', 'INT')}
-                        ${format('体质', 'STR')}
-                        ${format('家境', 'MNY')}
-                        ${format('快乐', 'SPR')}
-                        ${format('享年', 'AGE')}
-                        ${format('总评', 'SUM')}
+                        ${format('Appearance', 'CHR')}
+                        ${format('Intelligence', 'INT')}
+                        ${format('Health', 'STR')}
+                        ${format('Family Wealth', 'MNY')}
+                        ${format('Happiness', 'SPR')}
+                        ${format('Age', 'AGE')}
+                        ${format('Total Score', 'SUM')}
                     `);
                 }
             },
         }
 
         $$on('achievement', ({name})=>{
-            this.hint(`解锁成就【${name}】`, 'success');
+            this.hint(`Unlock Achievements【${name}】`, 'success');
         })
     }
 
