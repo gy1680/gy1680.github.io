@@ -67,14 +67,14 @@ class App {
         this.#talentExtend = localStorage.talentExtend;
         await this.#life.initial();
         this.output(`\rLoading Complete.
-人生重开模拟器
-这垃圾人生一秒也不想待了
-\n🎉键入 \x1B[4m/remake\x1B[24m 开始游戏`,
+Reset Life
+Life sucks, get me a new one
+\n🎉键入 \x1B[4m/remake\x1B[24m Start my new life`,
             true
         );
         $$on('achievement', ({name})=>this.output(`
 -------------------------
-    解锁成就【${name}】
+    Unlock Achievements【${name}】
 -------------------------
 `))
     }
