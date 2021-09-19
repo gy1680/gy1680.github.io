@@ -241,6 +241,16 @@ class App{
             propertyPage.find('#total').text(`Points you can use：${this.#totalMax - total()}`);
         }
         const getBtnGroups = (name, min, max)=>{
+            if ('Appearance' == name) {
+                name = `${name}&nbsp;&nbsp;&nbsp;`;
+            }else if ('Intelligence' == name) {
+                name = `${name}&nbsp;&nbsp;&nbsp;`;
+            }else if ('Health' == name) {
+                name = `${name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`;
+            }else if ('Family Wealth' == name) {
+                name = `${name}`;
+            }
+
             const group = $(`<li>${name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>`);
             const btnSub = $(`<span class="iconfont propbtn">&#xe6a5;</span>`);
             const inputBox = $(`<input value="0">`);
@@ -697,6 +707,23 @@ class App{
                     const format = (discription, type)=>{
                         const value = summaryData[type];
                         const { judge, grade } = summary(type, value);
+
+                        // if ('Appearance' == discription) {
+                        //     discription = `${discription}&nbsp;&nbsp;&nbsp;`;
+                        // }else if ('Intelligence' == discription) {
+                        //     discription = `${discription}&nbsp;&nbsp;&nbsp;`;
+                        // }else if ('Health' == discription) {
+                        //     discription = `${discription}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`;
+                        // }else if ('Family Wealth' == discription) {
+                        //     discription = `${discription}`;
+                        // }else if ('Happiness' == discription) {
+                        //     discription = `${discription}&nbsp;&nbsp;&nbsp;`;
+                        // }else if ('Age' == discription) {
+                        //     discription = `${discription}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`;
+                        // }else if ('Total Score' == discription) {
+                        //     discription = `${discription}`;
+                        // }
+                        
                         return `<li class="grade${grade}"><span>${discription}：</span><span>${value} ${judge}</span></li>`;
                     };
 
