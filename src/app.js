@@ -217,7 +217,7 @@ class App{
             <ul class="selectlist" id="talentSelectedView"></ul>
             <div class="btn-area">
                 <button id="random" class="mainbtn">Help me assign</button>
-                <button id="start" class="mainbtn">Start my new life</button>
+                <button id="start" class="mainbtn">Start</button>
             </div>
         </div>
         `);
