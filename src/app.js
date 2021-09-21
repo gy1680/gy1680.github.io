@@ -55,6 +55,9 @@ class App{
         // Index
         const indexPage = $(`
         <div id="main">
+
+            <div id="indextop">
+            </div>
  
             <div id="title">
                 Reset Life<br>

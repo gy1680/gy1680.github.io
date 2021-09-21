@@ -69,6 +69,19 @@ body {
   position: relative;
 }
 
+#indextop {
+  position: fixed;
+  top: 17%;
+  left: 50%;
+  width: 300px;
+  height: 55px;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(#6F6390 ,#3E1375, #10001F);
+  border: 1px #FFFFFF solid;
+  border-radius: 0.2rem;
+}
+
 #title {
   position: fixed;
   font-size: 3rem;
