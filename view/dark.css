@@ -73,13 +73,29 @@ body {
   position: fixed;
   top: 17%;
   left: 50%;
-  width: 300px;
-  height: 55px;
+  width: 330px;
+  height: 65px;
   white-space: nowrap;
   transform: translate(-50%, -50%);
   background: linear-gradient(#6F6390 ,#3E1375, #10001F);
   border: 1px #FFFFFF solid;
   border-radius: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5px;
+}
+
+#indextopleft{
+  background: url('./images//inedx/app_icon.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size:100%;
+  border-radius: 0.5rem;
+}
+#indextopright{
+  color: #EEEEEE;
+  padding-left: 5px;
 }
 
 #title {
