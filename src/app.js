@@ -63,9 +63,9 @@ class App{
             <button id="restart" class="mainbtn">Reset Now</button>
 
             <div class="mainbottom" id="mainbottom">
-                <div><button id="bottombtn1" class="bottombtn"></button></div>
-                <div><button id="bottombtn2" class="bottombtn"></button></div>
-                <div><button id="bottombtn3" class="bottombtn"></button></div>
+                <div><a href="https://discord.gg/gCVhwBN8"><button id="bottombtn1" class="bottombtn"></button></a></div>
+                <div><a href="https://www.instagram.com/dive_social/"><button id="bottombtn2" class="bottombtn"></button></a></div>
+                <div><a href="https://www.tiktok.com/@dive_social?"><button id="bottombtn3" class="bottombtn"></button></a></div>
             </div>
 
             <div id="mainfooter">Play more role playing games with your match</div>
