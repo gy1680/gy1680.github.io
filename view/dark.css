@@ -94,6 +94,49 @@ body {
   margin-right: 0.5rem;
 }
 
+#mainbottom {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  top: 80%;
+  left: 50%;
+  padding-left: 2rem;
+  transform: translate(-50%, -50%);
+  width: 210px;
+}
+
+.bottombtn {
+  /* margin-top: 10px; */
+  /* display: inline-block; */
+  /* background: url('./images//inedx/index_bottom1.png') no-repeat; */
+  width: 50px;
+  height: 50px;
+  /* overflow: hidden; */
+}
+#bottombtn1 {
+  background: url('./images//inedx/index_bottom1.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size:100%;
+  border-radius: 0.5rem;
+}
+#bottombtn2 {
+  background-color: rgba(0, 0, 0, 0.12);
+  background: url('./images//inedx/index_bottom2.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size:100%;
+  border-radius: 0.5rem;
+}
+#bottombtn3 {
+  background: url('./images//inedx/index_bottom3.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size:100%;
+  border-radius: 0.2rem;
+}
+
 #next {
   display: none;
 }
@@ -105,8 +148,10 @@ body {
 .mainbtn {
   margin: 0.5rem 1rem 1rem;
   padding: 0.5rem 1.5rem;
-  background-color: #393E46;
-  border: 1px #EEEEEE solid;
+  /* background-color: #393E46; */
+  background-color: #895EE2;
+  /* border: 1px #EEEEEE solid; */
+  border: 1px #895EE2 solid;
   border-radius: 0.2rem;
   color: #EEEEEE;
   font-size: 1.6rem;

@@ -61,7 +61,12 @@ class App{
                 <div style="font-size:1.5rem; font-weight:normal;">Life sucks, get me a new one</div>
             </div>
             <button id="restart" class="mainbtn">Reset Now</button>
-        
+
+            <div class="mainbottom" id="mainbottom">
+                <div><button id="bottombtn1" class="bottombtn"></button></div>
+                <div><button id="bottombtn2" class="bottombtn"></button></div>
+                <div><button id="bottombtn3" class="bottombtn"></button></div>
+            </div>
         </div>
         `);
 
