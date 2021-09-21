@@ -49,7 +49,8 @@
 }
 
 html {
-  background-color: #222831;
+  /* background-color: #222831; */
+  background: linear-gradient(#6F6390, #3E1375, #10001F);
   font-family: PingFangSC, 'Noto Sans CJK SC', 'MS Yahei';
 }
 
@@ -84,6 +85,9 @@ body {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #895EE2;
+  border: 1px #895EE2 solid;
+  border-radius: 1.0rem;
 }
 
 #restart .iconfont {

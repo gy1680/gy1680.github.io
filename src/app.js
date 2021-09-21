@@ -60,7 +60,7 @@ class App{
                 Reset Life<br>
                 <div style="font-size:1.5rem; font-weight:normal;">Life sucks, get me a new one</div>
             </div>
-            <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>Reset Now</button>
+            <button id="restart" class="mainbtn">Reset Now</button>
         
         </div>
         `);
