@@ -59,8 +59,8 @@ class App{
             <div id="indextop">
                     <div id="indextopleft"></div>
                     <div id="indextopright">
-                        <div style="font-size:0.5rem; font-weight:normal;text-align: left;">DIVE - Soul Metaverse</div>
-                        <div style="font-size:0.2rem; font-weight:normal;text-align: left;">Play more reset life games with your match</div>
+                        <div style="font-size:1.2rem; font-weight:normal;text-align: left;">DIVE - Soul Metaverse</div>
+                        <div style="font-size:0.6rem; font-weight:normal;text-align: left;">Play more reset life games with your match</div>
                     </div>
                 
             </div>
