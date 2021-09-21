@@ -67,6 +67,8 @@ class App{
                 <div><button id="bottombtn2" class="bottombtn"></button></div>
                 <div><button id="bottombtn3" class="bottombtn"></button></div>
             </div>
+
+            <div id="mainfooter">Play more role playing games with your match</div>
         </div>
         `);
 

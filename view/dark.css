@@ -137,6 +137,17 @@ body {
   border-radius: 0.2rem;
 }
 
+#mainfooter {
+  position: fixed;
+  font-size:0.5rem; 
+  font-weight:normal;
+  top: 90%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  color: #EEEEEE;
+}
+
 #next {
   display: none;
 }
