@@ -55,7 +55,8 @@ class App{
         // Index
         const indexPage = $(`
         <div id="main">
-            <a href="https://apps.apple.com/us/app/dive-soul-matching/id1567390551">
+            <!-- <a href="https://apps.apple.com/us/app/dive-soul-matching/id1567390551"> -->
+            <a onclick="window.webkit.messageHandlers.wkbridge.postMessage({url:'https://apps.apple.com/us/app/dive-soul-matching/id1567390551'});">
                 <div id="indextop">
                 <!--
                         <div id="indextopleft"></div>
