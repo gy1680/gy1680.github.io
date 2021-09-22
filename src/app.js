@@ -55,15 +55,16 @@ class App{
         // Index
         const indexPage = $(`
         <div id="main">
-        <a href="https://apps.apple.com/us/app/dive-soul-matching/id1567390551">
-            <div id="indextop">
-                    <div id="indextopleft"></div>
-                    <div id="indextopright">
-                        <div style="font-size:1.2rem; font-weight:normal;text-align: left;">DIVE - Soul Metaverse</div>
-                        <div style="font-size:0.6rem; font-weight:normal;text-align: left;">Play more reset life games with your match</div>
-                    </div>
-                
-            </div>
+            <a href="https://apps.apple.com/us/app/dive-soul-matching/id1567390551">
+                <div id="indextop">
+                <!--
+                        <div id="indextopleft"></div>
+                        <div id="indextopright">
+                            <div style="font-size:1.2rem; font-weight:normal;text-align: left;">DIVE - Soul Metaverse</div>
+                            <div style="font-size:0.6rem; font-weight:normal;text-align: left;">Play more reset life games with your match</div>
+                        </div>
+                -->
+                </div>
             </a>
  
             <div id="title">

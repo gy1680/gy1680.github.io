@@ -50,7 +50,7 @@
 
 html {
   /* background-color: #222831; */
-  background: linear-gradient(#6F6390, #3E1375, #10001F);
+  background: linear-gradient(0deg, #6F6391 0%, #3E1375 33.77%, #10001F 100%);
   font-family: PingFangSC, 'Noto Sans CJK SC', 'MS Yahei';
 }
 
@@ -77,16 +77,18 @@ body {
   height: 65px;
   white-space: nowrap;
   transform: translate(-50%, -50%);
-  background: linear-gradient(#6F6390 ,#3E1375, #10001F);
+  background: url('./images/inedx/index_download.png') no-repeat;
+  background-size:100%;
+  /* background: linear-gradient(#6F6390 ,#3E1375, #10001F);
   border: 1px #FFFFFF solid;
   border-radius: 0.2rem;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding-left: 5px;
+  align-items: center; */
+  /* padding-left: 5px; */
 }
 
-#indextopleft{
+/* #indextopleft{
   background: url('./images//inedx/app_icon.png') no-repeat;
   width: 50px;
   height: 50px;
@@ -96,7 +98,7 @@ body {
 #indextopright{
   color: #EEEEEE;
   padding-left: 5px;
-}
+} */
 
 #title {
   position: fixed;
@@ -116,7 +118,7 @@ body {
   transform: translate(-50%, -50%);
   background-color: #895EE2;
   border: 1px #895EE2 solid;
-  border-radius: 1.0rem;
+  border-radius: 0.5rem;
 }
 
 #restart .iconfont {
@@ -141,29 +143,29 @@ body {
   /* background: url('./images//inedx/index_bottom1.png') no-repeat; */
   width: 50px;
   height: 50px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 #bottombtn1 {
   background: url('./images//inedx/index_bottom1.png') no-repeat;
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
   background-size:100%;
-  border-radius: 0.5rem;
+  /* border-radius: 0.7rem; */
 }
 #bottombtn2 {
-  background-color: rgba(0, 0, 0, 0.12);
+  background-color: rgba(0, 0, 0, 0);
   background: url('./images//inedx/index_bottom2.png') no-repeat;
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
   background-size:100%;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
 }
 #bottombtn3 {
   background: url('./images//inedx/index_bottom3.png') no-repeat;
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
   background-size:100%;
-  border-radius: 0.2rem;
+  /* border-radius: 0.2rem; */
 }
 
 #mainfooter {
