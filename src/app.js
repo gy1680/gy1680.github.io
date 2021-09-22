@@ -75,7 +75,7 @@ class App{
             <button id="restart" class="mainbtn">Reset Now</button>
 
             <div class="mainbottom" id="mainbottom">
-                <div><a href="https://discord.gg/gCVhwBN8"><button id="bottombtn1" class="bottombtn"></button></a></div>
+                <div><a href="https://discord.gg/deMdvpRX"><button id="bottombtn1" class="bottombtn"></button></a></div>
                 <div><a href="https://www.instagram.com/dive_social/"><button id="bottombtn2" class="bottombtn"></button></a></div>
                 <div><a href="https://www.tiktok.com/@dive_social?"><button id="bottombtn3" class="bottombtn"></button></a></div>
             </div>
